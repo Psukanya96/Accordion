@@ -9,6 +9,6 @@ $(document).ready(function(){
 			$(".accordion").find(".body-part").slideUp();
 			$(this).closest(".accordion").addClass("active");
 			$(this).closest(".accordion").find(".body-part").slideDown();
-	}
-})
+		}
+	})
 })
